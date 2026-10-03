@@ -1,0 +1,30 @@
+{
+  "name": "shiwa-ai-control-center",
+  "version": "0.1.0",
+  "description": "Premium AI-powered Instagram creator control application",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "jest"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^14.0.0"
+  }
+}
